@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>Forms</title>
+
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" type="text/css">
+  <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript"></script>
+
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+</head>
+
+<body>
+  <h2> Assignments for <span id="whoami"></span></h2>
+  <div id= "message"></div>
+  <div id="assignments">
+    <!-- This element's contents will be replaced with your component. -->
+  </div>
+
+  <br><a href="/exam/changePassword">Change Password</a><br>
+  <a href="/exam/logout">Log out</a><br>
+
+  <!-- Load our React component. -->
+  <script src="/javascripts/whoami.js" type="text/babel"></script>
+  <script src="/javascripts/notAdmin.js" type="text/babel"></script>
+  <script src="/javascripts/message.js" type="text/babel"></script> 
+
+</body>
+</html>
